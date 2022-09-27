@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./estilos.css">
     <title>Contacto</title>
 </head>
 
@@ -13,7 +13,7 @@
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li ><a class="home" href="./home.html">Home</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Nosotros</a></li>
@@ -26,58 +26,45 @@
             <fieldset>
                 <legend>Formulario de Contacto</legend>
                 <!--formulario nombre, email y contraseña-->
-                
-                    <label for="name">Nombre</label>
-                    <input type="name" name="name" placeholder="Nombre">
-                    <label for="mail">e-mail</label>
-                    <input type="e-mail" name="mail" placeholder="e-mail">
-                    <label for="password">Contraseña</label>
-                    <input type="password" name="password" placeholder="Contraseña">
-
-                    <!---->
-                    <!-- fecha de nacimiento y comentario -->
-
-                    <label for="fecha">fecha de Nacimiento</label>
-                    <input type="date " name="fecha" required>
-                    <label for="mensaje">escribi tu comentario</label>
-                    <textarea name="mensaje" id="mensaje" cols="20" rows="5"></textarea>
-
-                    <!----->
-                    <!--submenu opciones-->
-
-                    <label for="talle">Talles</label>
-                    <select name="talle" id="talle">
-                        <option value="L">Large</option>
-                        <option value="M">Medium</option>
-                        <option value="S">Small</option>
-                    </select>
-
-                    <!--botones: enviar info , limpiar formulario, boton sin acciones(se utiliza para darle unfuncionamiento con JS)-->
-                    
-                    <div>
-                        <input type="submit" value="enviar">
-                        <input type="reset" value="limpiar formulario">
-                        <input type="button" value="sin acciones">
-                    </div>
-
-                    <!---->
-                    <!--botones radio-->
-
-                    <label for="pais">Argentina</label>
-                    <input type="radio" name="pais" value="argentina">
-                    <label for="pais">Uruguay</label>
-                    <input type="radio" name="pais" value="urugauy">
-                    <label for="pais">Chile</label>
-                    <input type="radio" name="pais" value="chile ">
-
-                    <!---->
-                    <!--casillas de chequeo-->
-
-
-                    <label for="acepta">Acepta los terminos y condiciones</label>
-                    <input type="checkbox" name="acepta" value="1">
-                    <!---->
-                
+                <label for="name">Nombre</label>
+                <input type="name" name="name" placeholder="Nombre" class="name">
+                <label for="mail">e-mail</label>
+                <input type="e-mail" name="mail" placeholder="e-mail">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" placeholder="Contraseña">
+                <!---->
+                <!-- fecha de nacimiento y comentario -->
+                <label for="fecha">fecha de Nacimiento</label>
+                <input type="date " name="fecha" required>
+                <label for="mensaje">escribi tu comentario</label>
+                <textarea name="mensaje" id="mensaje" cols="20" rows="5"></textarea>
+                <!----->
+                <!--submenu opciones-->
+                <label for="talle">Talles</label>
+                <select name="talle" id="talle">
+                    <option value="L">Large</option>
+                    <option value="M">Medium</option>
+                    <option value="S">Small</option>
+                </select>
+                <!--botones: enviar info , limpiar formulario, boton sin acciones(se utiliza para darle unfuncionamiento con JS)-->
+                <div>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="limpiar formulario">
+                    <input type="button" value="sin acciones">
+                </div>
+                <!---->
+                <!--botones radio-->
+                <label for="pais">Argentina</label>
+                <input type="radio" name="pais" value="argentina">
+                <label for="pais">Uruguay</label>
+                <input type="radio" name="pais" value="urugauy">
+                <label for="pais">Chile</label>
+                <input type="radio" name="pais" value="chile ">
+                <!---->
+                <!--casillas de chequeo-->
+                <label for="acepta">Acepta los terminos y condiciones</label>
+                <input type="checkbox" name="acepta" value="1">
+                <!---->
             </fieldset>
         </form>
     </section>

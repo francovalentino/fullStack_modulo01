@@ -22,8 +22,6 @@ fieldset {
     margin: 3rem;
 }
 
-
-
 fieldset input,fieldset textarea {
     margin: 1rem;
     margin-bottom: 1.5 rem;
@@ -34,4 +32,3 @@ fieldset input,fieldset textarea {
     border: none;
     border-bottom: solid 1px black;
 }
-
