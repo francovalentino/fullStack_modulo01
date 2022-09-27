@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300;400;700;800&display=swap');
+*{
+    margin: 0%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: burlywood;
+    height: 5rem;
+}
+.menu {
+    text-align: center;
+}
+.menu li {
+    display: inline;
+    font-size: 2rem;
+
+}
+fieldset {
+    background-color: #e7e7e7;
+    margin: 3rem;
+}
+
+
+
+fieldset input,fieldset textarea {
+    margin: 1rem;
+    margin-bottom: 1.5 rem;
+    margin-left: 0%;
+    width: 97%;
+    padding: 1rem;
+    padding-right: 0%;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
