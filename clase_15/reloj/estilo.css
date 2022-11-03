@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    font-style: sans-serif ;
+}
+#reloj {
+    position: fixed;
+    bottom: 1rem;
+    font-size: 2.2rem ;
+    border: 2px solid gray;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 0.5 rem;
+    
+}
